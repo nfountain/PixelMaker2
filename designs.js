@@ -3,14 +3,9 @@
 
 // When size is submitted by the user, call makeGrid()
 
-function makeGrid() {
-  // Your code goes here!
-}
-
 //allows js & jquery files to load. Maybe make it a fun effect while the js files load, later.
 $(document).ready(function() {
-    console.log("Ready");
-  });
+  console.log("Ready");
   
   let grid = $("#pixelCanvas");
   
@@ -42,6 +37,8 @@ $(document).ready(function() {
   grid.on("click", "td", function() {
     $(this).css("background-color", color.val());
   });
+});
+
   /*
   grid.on("dblclick", "td", function() {
     $(this).css("background-color", rgb(255,255,255));
