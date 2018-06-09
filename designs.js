@@ -1,8 +1,3 @@
-// Select color input
-// Select size input
-
-// When size is submitted by the user, call makeGrid()
-
 //allows js & jquery files to load. Maybe make it a fun effect while the js files load, later.
 $(document).ready(function() {
   console.log("Ready");
@@ -38,14 +33,3 @@ $(document).ready(function() {
     $(this).css("backgroundColor", color.val());
   });
 });
-
-  /*
-  grid.on("dblclick", "td", function() {
-    $(this).css("background-color", rgb(255,255,255));
-  });
-  */
-  //find a way to toggle the 'background-color' back to white...
-  // RESOURCES
-  // https://stackoverflow.com/questions/3910736/how-to-call-multiple-javascript-functions-in-onclick-event/34216918
-  // https://api.jquery.com/toggle-event/
-  // can I clear by changing background-color to "" ?
