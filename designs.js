@@ -35,7 +35,7 @@ $(document).ready(function() {
   let color = $("#colorPicker");
   
   grid.on("click", "td", function() {
-    $(this).css("background-color", color.val());
+    $(this).css("backgroundColor", color.val());
   });
 });
 
