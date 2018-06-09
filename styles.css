@@ -1,25 +1,52 @@
 body {
-  text-align: center;
+  text-align: center; 
+  background-image: url('http://www.iteration.gallery/wp-content/uploads/2017/10/iteration-harlequin-black-white-1024x683.png');
 }
 
 h1 {
-  font-family: Monoton;
-  font-size: 70px;
+  font-family: 'Special Elite', cursive;
+  font-size: 4em;
   margin: 0.2em;
+  padding: 0.1em;
+  color: rgba(17, 155, 160, 1);
+  background-color: rgba(172, 247, 118, 1);
+}
+
+#gridDesign {
+  padding: 0.5em;
 }
 
 h2 {
-  margin: 1em 0 0.25em;
+  margin: 0.7em 0 0.25em;
+  font-family: 'Special Elite', cursive;
+  font-size: 2em;
+  color: rgba(17, 155, 160, 1);
 }
 
 h2:first-of-type {
   margin-top: 0.5em;
 }
 
+form {
+  color: rgba(13, 26, 165, 1);
+  font-family: arial;
+  font-weight: bold; 
+  min-height: 2em;
+}
+
+#submitButton {
+color: rgba(255, 255, 255, 1);
+background-color: rgba(17, 155, 160, 1);
+border: 0.5em solid rgba(17, 155, 160, 1);
+border-radius: 0.3em;
+text-transform: uppercase;
+font-weight: bold;
+}
+
 table,
 tr,
 td {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 table {
@@ -28,13 +55,22 @@ table {
 }
 
 tr {
-  height: 20px;
+  height: 30px;
 }
 
 td {
-  width: 20px;
+  width: 30px;
 }
 
-input[type="number"] {
+input[type=number] {
   width: 6em;
+}
+
+#space {
+height: 6em;
+}
+
+footer {
+text-align: center;
+font-style: italic;
 }
